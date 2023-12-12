@@ -1,0 +1,25 @@
+/* estilo do formulario */
+form {
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 40px;
+    background-color: #2cda09;
+    border-radius: 7px;
+    box-shadow: 0 0 60px rgba(214, 14, 107, 0.1);
+  }
+  
+  /* estilo do campo de entrada */
+  input[type=text], textarea {
+    width: 100%;
+    padding: 14px 40px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 4px solid #720529a8;
+    border-radius: 6px;
+    resize: none;
+  }
+  
+  /* estilo do botao de envio */
+  input[type=submit] {
+    background-color: rgb(119, 88, 4)
+  }
